@@ -23,12 +23,12 @@ Dan krijgen we:
 - probeer dat uit in `phpmyadmin`:
     > ![](img/selectnaam.PNG)
 - maak in je `sql` directory nu een nieuwe file:
-    - `huisdierselect.sql`
+    - `02 huisdierselect.sql`
     - plak daar je SQL in
 
 ## alles
 
-- kopieer de SQL en plak die weer in `huisdierselect.sql`
+- kopieer de SQL en plak die weer in `02 huisdierselect.sql`
     - nu heb je 2 regels
         - verander van de 1ste `naam` nu in `*`
         - probeer deze in `phpmyadmin`:
@@ -36,7 +36,7 @@ Dan krijgen we:
 
 ## andere colommen
 
-- kopieer de eerste SQL regel (`met naam`) en plak die weer in `huisdierselect.sql`
+- kopieer de eerste SQL regel (`met naam`) en plak die weer in `02 huisdierselect.sql`
     - nu heb je 3 regels
         - verander van de 3de `naam` nu in `naam,eigennaar`
         - probeer deze in `phpmyadmin`:
@@ -46,6 +46,12 @@ Dan krijgen we:
         - dus `niet` naam en eigennaar
         - probeer je nieuwe statement in `phpmyadmin`
         
+## volgorde
+
+- draai nu de colommen om
+    > bijvoorbeeld `naam,eigennaar` wordt `eigennaar,naam`
+    - kijk wat er gebeurt
+
 ## klaar?
 
 - commit & push naar je git
