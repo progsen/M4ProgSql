@@ -34,7 +34,7 @@ OF vertaald naar OR in het engels. net als de AND kunnen we die gebruiken
 
 - zet deze data daarin:
 ```SQL
-INSERT INTO `kleren` (`id`, `beschrijving`, `type`, `kleur`)
+INSERT INTO `kleren` (`id`, `beschrijving`, `kledingtype`, `kleur`)
  VALUES 
  (NULL, 'olymp overhemd', 'overhemd', 'wit'),
  (NULL, 'jakes overhemd', 'overhemd', 'blauw'),

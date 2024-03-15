@@ -38,18 +38,18 @@ Dan krijgen we:
 
 - kopieer de eerste SQL regel (`met naam`) en plak die weer in `02 huisdierselect.sql`
     - nu heb je 3 regels
-        - verander van de 3de `naam` nu in `naam,eigennaar`
+        - verander van de 3de `naam` nu in `naam,eigenaar`
         - probeer deze in `phpmyadmin`:
         > ![](img/selectcol.PNG)
 - maak nog 1 regel, en zorg dat je:
     - 3 andere colommen selecteerd
-        - dus `niet` naam en eigennaar
+        - dus `niet` naam en eigenaar
         - probeer je nieuwe statement in `phpmyadmin`
         
 ## volgorde
 
 - draai nu de colommen om
-    > bijvoorbeeld `naam,eigennaar` wordt `eigennaar,naam`
+    > bijvoorbeeld `naam,eigenaar` wordt `eigenaar,naam`
     - kijk wat er gebeurt
 
 ## klaar?

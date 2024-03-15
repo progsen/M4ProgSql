@@ -15,7 +15,7 @@
 >   - `colommen` zijn `eigenschappen` van het `ding` wat in de `table` komt
 > voor onze huisdieren gebruiken we de `volgende` eigenschappen:
 >   - `naam`
->   - `eigennaar`
+>   - `eigenaar`
 >   - `typedier`
 >   - `leeftijd`
 >   - `geboortedatum`
@@ -53,7 +53,7 @@
     - zet `Length` voor nu even op `150`
         > de naam mag nu maximaal `150` letters/cijfers (*characters*) bevatten
 - maak nu voor de rest ook colommen aan:
->   - `eigennaar` (varchar van 150)
+>   - `eigenaar` (varchar van 150)
 >   - `typedier` (varchar van 80)
 >   - `leeftijd` (int)
 >   - `geboortedatum` (date)

@@ -39,7 +39,7 @@ nu krijg je:
 zet de volgende data in je huisdieren tabel:
 
 ```SQL
-INSERT INTO `huisdieren` (`id`, `naam`, `eigennaar`, `typedier`, `leeftijd`, `geboortedatum`) 
+INSERT INTO `huisdieren` (`id`, `naam`, `eigenaar`, `typedier`, `leeftijd`, `geboortedatum`) 
 VALUES 
 (NULL, 'koning hamster', 'joep', 'hamster', '1', '2024-02-01'),
 (NULL, 'miss fluffy', 'marije', 'hamster', '2', '2024-02-01'),
