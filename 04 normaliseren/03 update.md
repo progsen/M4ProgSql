@@ -17,9 +17,9 @@
 ## EXTRA: andere manier
 
 - deze is wat ingewikkelder maar dit is voor ons wat leesbaarder
-    > maar is wel LANGZAMER voor de computer
-> ![](img/subselect.PNG)
-- maak nu update statements die het op de manier hierboven doen
+    > *LETOP* maar is wel LANGZAMER voor de computer
+    > ![](img/subselect.PNG)
+    - maak nu update statements die het op de manier hierboven doen
 
 
 ## klaar?
