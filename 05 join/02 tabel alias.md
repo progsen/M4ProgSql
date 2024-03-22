@@ -45,5 +45,21 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
 - we gaan hobby en persoon in 1 keer selecteren:
     - dat doen we door `hobbyid` uit `persoon` aan `hobbyid` van `hobby` te koppelen:
         ```SQL
-         SELECT * FROM `hobby` join persoon on hobbyid = hobbyid;
+         SELECT * FROM hobby join persoon on hobbyid = hobbyid;
         ```
+        - probeer de query
+          - je krijgt een fout:
+          > ![](img/error.PNG)
+
+#### alias to the rescue?
+
+- geef nu `hobby` een alias `h`
+- geef nu `persoon` een alias `p`
+  - gebruik nu `p` en `h` in het `hobbyid = hobbyid` stuk
+    - als je het goed doet werkt het nu wel:
+    > ![](img/worky.PNG)
+
+    
+## klaar?
+
+- commit & push naar je git
