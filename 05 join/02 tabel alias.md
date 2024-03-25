@@ -37,7 +37,7 @@ INSERT INTO `hobby` ( `hobbyid`,`hobby`) VALUES (1,"gamen");
 INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
 ```
 
-- nu heb je 2 tabllen erbij:
+- nu heb je 2 tabellen erbij:
 > ![](img/persoonhobby.PNG)
 
 #### in 1 keer
@@ -59,7 +59,30 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
     - als je het goed doet werkt het nu wel:
     > ![](img/worky.PNG)
 
-    
+- zie je hoe de data van beide tabellen in 1 resultaat staat?
+  > zo kan je dus data uit beide tabellen combineren
+
+#### ik wil niet alles
+
+- maak een nieuwe file aan:
+    - `05\join.sql`
+
+- zie je de `*` in de query hieronder?
+```SQL
+  SELECT * FROM hobby join persoon on hobbyid = hobbyid;
+```
+- vervang die zodat je de volgende kolommen selecteerd:
+  - hobbyid van tabel hobby
+    > - gebruik een tabel alias 
+  - hobby van tabel hobby
+  - id van persoon
+    - gebruik een colom alias:
+      - zorg dat colom als persoonid te zien is in het resultaat
+  - naam van persoon
+    > - gebruik een tabel alias 
+- bewaard deze query in:
+    - `05\alias.sql`
+
 ## klaar?
 
 - commit & push naar je git
