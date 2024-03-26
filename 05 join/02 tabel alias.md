@@ -83,6 +83,9 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
 - bewaard deze query in:
     - `05\alias.sql`
 
+- controlleer of je het volgende hebt:
+> ![](img/joinresult.PNG)
+
 ## klaar?
 
 - commit & push naar je git

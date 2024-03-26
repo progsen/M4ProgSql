@@ -1,9 +1,18 @@
 ## Klantgesprek
 
-laten we nu een wat complexere database gebruiken om joins te proberen
+we gaan nu het klantgesprek beter selecteren  
+we hadden 2 result sets in php admin maar we willen dit:
 
-- download de volgende sql files:
-    - [mobileproviderDB/database.sql](mobileproviderDB/database.sql)
-    - [mobileproviderDB/dataverbruik.sql](mobileproviderDB/dataverbruik.sql)
-    - [mobileproviderDB/gesprekverbruik.sql](mobileproviderDB/gesprekverbruik.sql)
-    - [mobileproviderDB/smsverbruik.sql](mobileproviderDB/smsverbruik.sql)
+maar we willen dit:
+> ![](img/joinresult.PNG)
+
+- zorg dat je hetzelfde resultaat krijgt als in het plaatje
+    - zet je query in `05/join.sql`
+
+#### colommen aanpassen
+
+- kopieer je query
+    - pas het aan zodat je maar 1 keer klantid ziet
+    - zorg dat je `gesprekid` niet ziet
+
+
