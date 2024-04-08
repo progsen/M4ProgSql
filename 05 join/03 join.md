@@ -16,3 +16,7 @@ maar we willen dit:
     - zorg dat je `gesprekid` niet ziet
 
 
+
+## klaar?
+
+- commit & push naar je git
