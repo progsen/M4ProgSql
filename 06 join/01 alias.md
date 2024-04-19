@@ -1,7 +1,7 @@
 ## alias
 
 - maak een nieuwe file aan:
-    - `05\alias.sql`
+    - `06\alias.sql`
     
 > in sql kan je kolommen and tabellen aliassen geven
 > laten we een voorbeeld maken:

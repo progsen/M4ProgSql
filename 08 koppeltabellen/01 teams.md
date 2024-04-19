@@ -2,7 +2,7 @@
 
 - maak een nieuwe file aan:
     - `08\koppel.sql`
-    - kopieer je create tabel sql en je data sql uit  `05\teams.sql` naar deze file
+    - kopieer je create tabel sql en je data sql uit  `06\teams.sql` naar deze file
 
 ## Teams
 

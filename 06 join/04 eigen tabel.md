@@ -4,7 +4,7 @@
 ## start
 
 - maak een nieuwe file aan:
-    - `05\teams.sql`
+    - `06\teams.sql`
 
 ## team tabellen    
 *laten we een nieuwe tabellen maken voor een teamsportclub*
