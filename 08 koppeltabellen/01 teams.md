@@ -1,7 +1,7 @@
 ## start
 
 - maak een nieuwe file aan:
-    - `07\koppel.sql`
+    - `08\koppel.sql`
     - kopieer je create tabel sql en je data sql uit  `05\teams.sql` naar deze file
 
 ## Teams
@@ -52,7 +52,7 @@ CREATE TABLE `teamlidv2_teamv2` (
 
 ## data
 
-gebruik de volgende data:
+gebruik het onderstaande SQL script om data in de tabellen te zetten:
 ```SQL
 
 insert into teamv2 (id,teamnaam) values 
