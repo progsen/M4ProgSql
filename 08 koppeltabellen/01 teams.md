@@ -84,6 +84,8 @@ insert into teamlidv2_teamv2 (teamlidid,teamid) values
 (6,2),
 (7,2),
 (8,2);
+
+
 ```
 
 ## klaar?

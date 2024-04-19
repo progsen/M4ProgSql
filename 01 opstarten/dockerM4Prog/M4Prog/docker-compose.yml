@@ -1,0 +1,30 @@
+version: '3.9'
+
+# Services
+services:
+
+  # MariaDB Service
+  mariadb:
+    image: mariadb:latest
+    #image: mysql:latest
+    environment:
+      MYSQL_DATABASE: m4prog
+      MYSQL_USER: m4proggebruiker
+      MYSQL_PASSWORD: bf83tb3g5v
+      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
+    ports:
+      - 3308:3306
+
+  # php myadmin in an external image
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mariadb
+      PMA_USER: m4proggebruiker
+      PMA_PASSWORD: bf83tb3g5v
+    ports:
+      - "1088:80"
+
+# Volumes
+volumes:
+  mysqldata:

@@ -1,0 +1,56 @@
+## kleding winkel
+
+
+- schrijf eerst je ideeen op in een textfile!
+    - maak tabellen voor de casus hieronder
+    - Lees de casus GOED door!
+        - let op dat alle DINGEN een aparte TABEL hebben
+```
+
+Je bent ingehuurd om voor een kleding winkel een site te maken waar klanten custom kleding met opdruk kunnen bestellen
+
+De winkel verkoopt broeken, truien en tshirts. Elke voor een prijs
+
+De winkel biedt de items in verschillende maten aan
+- Small
+- Medium
+- Large
+
+De winkel biedt alle items in verschillende kleuren aan, dit is een vaste set aan kleuren:
+- wit
+- zwart
+- grijs
+- groen
+- blauw
+
+mogelijk dat dit veranderd in de toekomst, en dat niet alle kleding alle kleuren heeft
+
+Waar de opdruk kan verschilt per type kleding:
+
+- truien:
+    - op de mouw(en)
+    - op de voorkant
+    - op de achterkant
+- tshirts:
+    - op de voorkant
+    - op de achterkant
+- broeken:
+    - op de zijkant van 1 broekspijp
+    - op de voorkant van 1 broekspijp
+
+
+Een order heeft dus 1 of meerdere items welke:
+    - een maat
+    - een kleur
+    - een opdruk locatie 
+        hebben
+```
+
+## maken
+
+- maak nu de SQL die deze tabellen maakt
+    - zet dit in `10 kledingwinkel.sql`
+
+## klaar?
+
+- commit & push naar je git
