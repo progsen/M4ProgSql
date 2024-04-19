@@ -1,6 +1,6 @@
 
 - maak een file aan in de sql directory:
-    - `02/02 eigendata.sql`
+    - `02 eigendata.sql`
 
 ## tabel aanmaken
 

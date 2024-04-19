@@ -1,6 +1,6 @@
 
 - maak een file aan in de sql directory:
-    - `04/04 where self.sql`
+    - `04 where self.sql`
 
 ## games kopen
 

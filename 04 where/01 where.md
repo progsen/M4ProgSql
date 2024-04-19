@@ -3,7 +3,7 @@
 
 
 - maak een file aan in de sql directory:
-    - `01 where.sql` zoals hier in de screenshot:
+    - `04 where.sql` zoals hier in de screenshot:
     > ![](img/dir.PNG)
 
 
@@ -16,7 +16,7 @@ met de `WHERE` in SQL
 
 > ![](img/leeftijd.PNG)
 
-- zet deze statement in `01 where.sql`
+- zet deze statement in `04 where.sql`
     - probeer deze ook uit in `phpmyadmin`
 - maak een nieuwe statement die alle huisdieren selecteerd boven de 4 jaar (zonder een leeftijd van 4)
 - maak nog een statement die alle huisdieren selecteerd van 4 jaar

@@ -65,7 +65,7 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
 #### ik wil niet alles
 
 - maak een nieuwe file aan:
-    - `06\join.sql`
+    - `06 join.sql`
 
 - zie je de `*` in de query hieronder?
 ```SQL
@@ -81,7 +81,7 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
   - naam van persoon
     > - gebruik een tabel alias 
 - bewaard deze query in:
-    - `06\alias.sql`
+    - `06 alias.sql`
 
 - controlleer of je het volgende hebt:
 > ![](img/joinresult.PNG)

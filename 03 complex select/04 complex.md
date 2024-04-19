@@ -1,6 +1,6 @@
 
 - maak een file aan in de sql directory:
-    - `03/03 complexselect.sql`
+    - `03 complexselect.sql`
 
 ## tabel aanmaken
 

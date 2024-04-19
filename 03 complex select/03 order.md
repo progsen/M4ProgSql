@@ -3,7 +3,7 @@
 
 
 - maak een file aan in de sql directory:
-    - `05 order.sql`
+    - `03 order.sql`
 
 ## data sorteren
 
@@ -18,7 +18,7 @@ Vaak willen we data sorteren:
 
 ## sorteren op naam/alphabet
 
-- zet in `05 order.sql` weer een `select` die `alles` uit `huisdieren` selecteerd
+- zet in `03 order.sql` weer een `select` die `alles` uit `huisdieren` selecteerd
     - zet daar nu `order by naam` achter
     - probeer de statement:
     > ![](img/ordernaam.PNG)
@@ -33,7 +33,7 @@ Vaak willen we data sorteren:
 
 - zoek nu uit hoe je eerst op `typedier` en daarna op `naam` kan sorteren:
     > ![](img/sorted.PNG)
-    - zet die statement ook in `05 order.sql`
+    - zet die statement ook in `03 order.sql`
 - verander de op typedier en naam nu zodat je:
     - `typedier` van A-Z sorteerd
     - `naam` van Z-A sorteerd

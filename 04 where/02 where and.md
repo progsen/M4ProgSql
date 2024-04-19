@@ -3,7 +3,7 @@
 
 
 - maak een file aan in de sql directory:
-    - `02 where and.sql` 
+    - `04 where and.sql` 
 
 
 

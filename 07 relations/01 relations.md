@@ -5,7 +5,7 @@
 > laten we dat eens gaan proberen
 
 - maak een nieuwe file aan:
-    - 07/relaties.sql
+    - `07 relaties.sql`
 
 ## voorbereiden
 

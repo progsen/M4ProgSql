@@ -5,7 +5,7 @@ Vanuit onze code kunnen we in 2 stappen selecteren:
 >    - `foreach` huisdier selecteer de eigenaar erbij
 
 - maak nu de sql statements die je nodig hebt om 1 huisdier + eigenaar te selecteren
-    - zet dat in `select2.sql`
+    - zet dat in `05 select2.sql`
     - probeer die uit in phpmyadmin voor 1 huisdier
     > zie het voorbeeld hieronder (en zie ook dat we 2 x een resultaat hebben)
     > ![](img/select2tables.PNG)

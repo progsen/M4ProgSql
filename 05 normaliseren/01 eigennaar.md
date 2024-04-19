@@ -2,7 +2,7 @@
 ## opstarten
 
 - maak een file aan in de sql directory:
-    - `04 eigenaar.sql`
+    - `05 eigenaar.sql`
 
 ## huisdieren
 
@@ -37,12 +37,12 @@
         - achternaam, varchar(120)
         - leeftijd, INT 
 - exporteer de nieuwe tabel
-    - zet die SQL in `04 eigenaar.sql`
+    - zet die SQL in `05 eigenaar.sql`
 
 ## Data
 
 - maak nu voor elke `eigenaar` in `huisdieren` een rij in `huisdiereigenaar`
-    - zet de insert statements ook in `04 eigenaar.sql`
+    - zet de insert statements ook in `05 eigenaar.sql`
 
 ## klaar?
 

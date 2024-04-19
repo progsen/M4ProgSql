@@ -3,7 +3,7 @@
 ## start
 
 - maak een file aan in de sql directory:
-    - `02 rekenen.sql`
+    - `03 rekenen.sql`
 
 ## dynamische colommen
 
@@ -12,7 +12,7 @@ Je kan ook dingen selecteren die NIET in de colommen van de tabel staan
 - probeer het volgende:
     > ![](img/sum.PNG)
     > zie je hoe nu de leeftijden worden opgeteld van alle huisdieren?
-    - zet de SQL in `02 rekenen.sql`
+    - zet de SQL in `03 rekenen.sql`
 
 - probeer nu het gemiddelde van de leeftijden van de huisdieren te selecteren
     - zoek in de documentatie hoe je dat doet
@@ -23,7 +23,7 @@ Je kan ook dingen selecteren die NIET in de colommen van de tabel staan
     - de SUM van leeftijden
     - en daarna het gemiddelde
     > ![](img/sumg.PNG)
-    - zet de SQL in `02 rekenen.sql`
+    - zet de SQL in `03 rekenen.sql`
 
 ## colom namen
 
@@ -33,7 +33,7 @@ zeker met dynamische colommen is dat handig
 
 - zet nog een keer dit:
     > ![](img/sum.PNG)
-    - in `02 rekenen.sql`
+    - in `03 rekenen.sql`
     - zet nu achter `SUM(leeftijd)`:
         - `as gemiddeldeLeeftijd`
 

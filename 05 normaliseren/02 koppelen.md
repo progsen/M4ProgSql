@@ -10,7 +10,7 @@ Nu hebben we 2 tabellen:
 > die moet weg!
 
 - maak een nieuwe file:
-    - `alterhuisdier.sql`
+    - `05 alterhuisdier.sql`
         - daar zetten we het volgende in:
         > ![](img/alter.PNG)
         - dan krijg je:

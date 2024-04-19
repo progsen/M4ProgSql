@@ -8,7 +8,7 @@ laten we dat eens gaan proberen
 ## telefoon rekening
 
 - maak een nieuwe sql file:
-    - `04/telefoon.sql`
+    - `05 telefoon.sql`
 - lees de volgende business case:
     ```
     Jij moet een database maken waar een telefoon provider klantgesprekken kan bijhouden:
@@ -26,7 +26,7 @@ laten we dat eens gaan proberen
 ## tabel maken
 
 - We beginnen nu met het maken van 1 tabel:
-    - maak deze na in `04/telefoon.sql`
+    - maak deze na in `05 telefoon.sql`
     > ![](img/telefoongesprek.PNG)
 
 
@@ -81,9 +81,9 @@ INSERT INTO `klantTelefoonGesprek` (`id`, `naam`, `leeftijd`, `telefoonnummer`, 
 
 ## zelf normaliseren
 
-- maak in `05\telefoongespreknorm.sql` de tabellen
+- maak in `05 telefoongespreknorm.sql` de tabellen
     - schrijf zelf de sql
-        > TIP: gebruik `telefoongesprek.sql` als basis
+        > TIP: gebruik `05 telefoongesprek.sql` als basis
         > - let wel op dat de id colom anders heet!
 
 ## testen
