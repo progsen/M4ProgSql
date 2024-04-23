@@ -16,7 +16,7 @@ kunnen we een GROUP BY gebruiken
 
 ## select
 - maak een nieuwe sql file:
-    - `xx group by.sql`
+    - `10 group by.sql`
 - probeer nu een select te maken die:
     - alleen mario wonder bekijkt
     - het aantal verkochte producten optelt

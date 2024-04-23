@@ -4,7 +4,7 @@ Nu hebben we een mooie database met data.
 tijd om te gaan selecteren!
 
 - maak een file aan:
-    - `xx multijoin.sql`
+    - `11 multijoin.sql`
 
 ## Data verbruik
 
