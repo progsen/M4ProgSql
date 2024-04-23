@@ -16,6 +16,10 @@ tijd om te gaan selecteren!
     - de `naam` van de klanten + het aantal seconden van de gesprekken selecteerd
         > gebruik `TIMESTAMPDIFF`
 
+## Data verbruik
+
+- verander nu de query zodat die alleen selecteerd wat in february 2024 is gebeurt
+
 ## contract & abonnement
 
 - maak een query:
