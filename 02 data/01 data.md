@@ -12,6 +12,7 @@ Nu gaan we data in de tabel zetten
 - maak een rij aan via phpmyadmin
     - open de table en click op `insert`
     > ![](img/insert.PNG)
+- vul zelf data van een huisdier in (mag je zelf verzinnen)
 
 - click op `go`
     - kijk even goed naar het scherm
