@@ -21,7 +21,7 @@ bedenk nu zelf een tabel om kaarten in op te slaan denk aan:
     - `01 kaartspel.sql`
 
 
-## start
+## Eigen tabel verzinnen en maken
 
 - maak een file aan in de sql directory:
     - `01 zelf.sql`
