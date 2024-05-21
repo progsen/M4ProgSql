@@ -8,7 +8,7 @@ kunnen we een GROUP BY gebruiken
 
 ## tabel maken
 
-- maak nu de table aan met de volgende de file:
+- maak nu de table aan met de volgende file:
     - [sql/verkochtproduct.sql](sql/verkochtproduct.sql)
 
 - bekijk de data in de tabel
