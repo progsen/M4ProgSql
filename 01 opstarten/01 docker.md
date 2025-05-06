@@ -25,6 +25,11 @@
 
 ## simpele docker 
 
+- lees (LET OP):
+> werkt docker niet goed op jou laptop? gebruik de alternatieve installatie:
+> https://github.com/progsen/M4ProgSql/
+
+
 
 ## install
 
