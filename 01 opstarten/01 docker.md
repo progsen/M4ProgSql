@@ -26,8 +26,8 @@
 ## simpele docker 
 
 - lees (LET OP):
-> werkt docker niet goed op jou laptop? gebruik de alternatieve installatie:
-> https://github.com/progsen/M4ProgSql/tree/main/01%20opstarten/01%20alt%20installatie
+    > werkt docker niet goed op jou laptop? gebruik de alternatieve installatie:
+    > https://github.com/progsen/M4ProgSql/tree/main/01%20opstarten/01%20alt%20installatie
 
 
 
