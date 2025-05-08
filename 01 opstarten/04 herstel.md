@@ -15,7 +15,7 @@
 
 - zoek je `huisdieren.sql` uit de vorige oefeningen
 
-- plak de sql uit `huisdieren.sql` in het sql window
+- plak de sql code (dus alle text) die in `huisdieren.sql`staat in het sql window
 - druk op go
     > ![](img/plak.PNG)
 
