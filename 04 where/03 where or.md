@@ -79,7 +79,7 @@ select * from kleren where kleur = "rood" OR kleur = "wit"
 >   - *LET OP*, zet je haakjes goed:
 >       - `(... OF ...) AND ...`
 
-- maak nu een select voor:
+- maak nu 3 select statements voor deze filters:
     - alle broeken die zwart `OF` wit zijn
     - alle broeken `EN` overhemden die zwart `OF` wit zijn
     - alle tshirts `EN` overhemden die rood `OF` blauw zijn
