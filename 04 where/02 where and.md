@@ -12,27 +12,52 @@
 - lees het onderstaande:
 
 
-om op meer dan 1 ding te filteren kunnen we de `AND` gebruiken
+> om op meer dan 1 ding te filteren kunnen we de `AND` gebruiken
 bekijk deze tabel:
-> ![](img/planten.PNG)
-
-Met deze data:
+> ![](img/planten.PNG)  
+> Met deze data:  
 > ![](img/plantendata.PNG)
 
-Als wij nu alle planten zonder bloemen willen hebben doen we:
-```SQL
-Select * from planten where heeftBloemen = 0
-```
-dan krijg je:
-> ![](img/noand.PNG)
+- voeg de tabel toe met deze sql:
+    ```SQL
 
-Maar stel dat we nog meer willen filteren, Bijvoorbeeld dat de plant kleiner dan 1 meter (100cm) moet zijn:
+    CREATE TABLE `planten` (
+    `id` int(11) NOT NULL,
+    `naam` text NOT NULL,
+    `bloeitInSeisoen` int(11) NOT NULL,
+    `heeftBloemen` tinyint(1) NOT NULL,
+    `maxHoogte` int(11) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-```SQL
-Select * from planten where heeftBloemen = 0 AND maxHoogte < 100
-``` 
-nu krijg je:
-> ![](img/and.PNG)
+    ALTER TABLE `planten`
+    ADD PRIMARY KEY (`id`);
+
+    ALTER TABLE `planten`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+    COMMIT;
+
+    INSERT INTO `planten` (`id`, `naam`, `bloeitInSeisoen`, `heeftBloemen`, `maxHoogte`) VALUES (NULL, 'bosje met bloemen', '1', '1', '100'),
+  (NULL, 'bosje zonder bloemen', '1', '0', '60'),
+  (NULL, 'boompje', '4', '0', '460'),
+  (NULL, 'zonnebloem', '2', '1', '260');
+ 
+    ```
+
+    - Als wij nu alle planten zonder bloemen willen hebben doen we:
+        ```SQL
+        Select * from planten where heeftBloemen = 0
+        ```
+    - probeer dit zelf ook dan krijg je:
+        > ![](img/noand.PNG)
+
+- lees:
+    > Maar stel dat we nog meer willen filteren, Bijvoorbeeld dat de plant kleiner dan 1 meter (100cm) moet zijn:
+
+        ```SQL
+        Select * from planten where heeftBloemen = 0 AND maxHoogte < 100
+        ``` 
+- probeer dat zelf even, nu krijg je:
+    > ![](img/and.PNG)
 
 ## nieuwe data
 

@@ -19,7 +19,7 @@ SELECT count(*) FROM `huisdieren`
 
 - gebruik de huisdieren tabel
     - gebruik een `count(*)` en een group by om een select te maken die laat zien:
-        - hoeveel huisdieren elke eigennaar heeft:
+        - hoeveel huisdieren elke eigenaar heeft:
         > ![](img/aantalhuisdieren.PNG)
         - gebruik ook een alias om de count(*) te verbergen
 

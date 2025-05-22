@@ -7,9 +7,9 @@
         - bekijk jouw eigenaar tabel
         > ![](img/eigenaar.PNG)
 
-- bedenk welke huisdieren welke eigenaren hebben en zoek de eigennaarid (id in de eigenaar colom)
+- bedenk welke huisdieren welke eigenaren hebben en zoek de eigenaarid (id in de eigenaar colom)
 
-> Als wij flappie de eigennaar `edgard` willen geven doen we dit:
+> Als wij flappie de eigenaar `edgard` willen geven doen we dit:
 > ![](img/flappie.PNG)
 
 - zorg dat al jouw huisdieren weer een eigenaar krijgen met de update statement
