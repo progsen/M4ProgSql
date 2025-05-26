@@ -84,7 +84,7 @@ INSERT INTO `persoon` ( `naam`,`hobbyid`) VALUES ("leraar",1);
     - `06 alias.sql`
 
 - controlleer of je het volgende hebt:
-> ![](img/joinresult.PNG)
+  > ![](img/joinhobbyresult.PNG)
 
 ## klaar?
 
