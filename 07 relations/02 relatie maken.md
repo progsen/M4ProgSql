@@ -29,8 +29,8 @@ om een relatie te leggen met een constraint gebruiken we de volgende SQL:
 - vervang `TABEL2_COLOM` door `id`
 - vervang `TABEL1` door `voedselProduct`
 - vervang `TABLE2` door `ingredient`
-- dan wordt het:
-![](img/altertable.PNG)
+- dan wordt het:  
+    > ![](img/altertable.PNG)
 
 ## insert?
 
