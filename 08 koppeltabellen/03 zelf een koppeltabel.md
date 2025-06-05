@@ -5,8 +5,8 @@
 
 - maak nu tabellen voor:
     - helpdeskmedewerker
-    - klant
-    - gesprek ( klant + helpdeksmedewerker koppel tabel)
+    - beller
+    - gesprek ( beller + helpdeksmedewerker koppel tabel)
 
 - zet er data in
 - maak een select die de data met een JOIN laat zien

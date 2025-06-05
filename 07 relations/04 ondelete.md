@@ -17,7 +17,7 @@ waarom? omdat we graag de data compleet houden of in een werkende staat houden
 
 - we gaan nu de foreign key aanpassen:
     - neem de volgende SQL over:
-    >![](img/alterfor.PNG)
+        >![](img/alterfor.PNG)
 - doe hetzelfde voor de papa foreign key
 
 ## kat weggooien

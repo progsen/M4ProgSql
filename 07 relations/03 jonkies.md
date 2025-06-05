@@ -27,7 +27,8 @@ insert into kitten (mamaId,papaId,naam) values
 - selecteer nu de tabellen kat en kitten met een join zodat je dit krijgt:
 > ![](img/mamapapa.PNG)
     - sla deze query ook op
-    
+> HINT: je kan 1 tabel 2 keer laten joinen 
+
 ## klaar?
 
 - commit & push naar je git
