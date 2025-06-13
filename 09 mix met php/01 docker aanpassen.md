@@ -9,16 +9,16 @@ maar om het met php te gebruiken hebben we meer nodig!
 
 ## docker M4Prog aanpassen
 
-in M3Prog hadden we een docker met 4 services!
+in M3Prog hadden we een docker met 2 services!
 
 
 - maak een nieuwe map:
     - `M4ProgPhp-docker`
 - kopieer je `M4Prog` docker-compose.yml naar die map
 - pas je `docker-compose.yml` aan:
-    - we voegen 2 services toe:
+    - we voegen 2 services toe :
+        >(dus onders services, let op je tabs!)
         ```yaml
-        services:
         # PHP FPM Service
         php:
             image: wodby/php:latest
@@ -60,7 +60,7 @@ in M3Prog hadden we een docker met 4 services!
 
 - in de map waar deze file staat staat ook een `files` directory
 - alles wat daarin staat zet je naast je `docker-compose.yml`
-
+    > ![](img/m4docker.PNG)
 
 ## klaar?
 

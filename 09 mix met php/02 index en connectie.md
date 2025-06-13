@@ -14,6 +14,10 @@
     - probeer de code te lezen en begrijpen.
         - begrijp je iets niet? zoek het op!
 
+## docker
+
+- gebruik docker compose up om deze nieuwe docker aan te maken
+    > ![](img/docker.PNG)
 
 ## index.php
 
@@ -38,7 +42,7 @@ print_r($result->fetch_all());
 
 - `start` je `M4ProgPhp-docker` docker
     - open je `index.php`
-    > ![](img/nice.PNG)
+        > ![](img/nice.PNG)
     
 ## klaar?
 
