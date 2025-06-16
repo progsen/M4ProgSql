@@ -26,6 +26,7 @@ maar om het met php te gebruiken hebben we meer nodig!
 ## docker compose
 
 - maak nu je docker aan met docker compose
+
 ## klaar?
 
 - commit & push naar je git

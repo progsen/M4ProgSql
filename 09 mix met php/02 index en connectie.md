@@ -4,9 +4,11 @@
 
 - open je .env file
     - kijk even goed, begrijp je alle waardes?
-    - pas nu het wachtwoord aan
+    - pas nu het wachtwoord aan in de `.env` file, naar wat je in je docker file hebt staan
+        - deze:
+            > ![](img/mysqlpw.PNG)
 
-- open ook je source/database.php
+- open ook je `source/database.php`
     - lees de code
         - zie je waar je waardes uit .env gebruikt worden?
 
