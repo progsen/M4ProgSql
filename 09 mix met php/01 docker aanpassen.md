@@ -23,7 +23,8 @@ maar om het met php te gebruiken hebben we meer nodig!
 - open je `M4Prog` docker-compose.yml
     - deze heeft andere services (mariadb & phpmyadmin), deze zetten we erbij:
         >![](img/plusservices.PNG)
-    
+    - let goed op hoe alles ingesprongen is (tab)
+        > alles moet 1 tab verder dan services: staan, kijk ook goed naar het plaatje hierboven
 ## docker compose
 
 - maak nu je docker aan met docker compose
