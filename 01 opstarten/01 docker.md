@@ -40,9 +40,16 @@ voor onze docker gaan hebben we 2 containers nodig:
 - een phpmyadmin om de database te kunnen beheren
 
 - onder je eigen `M4Prog` heb je nu 
-> ![](img/compose.PNG)
+    > ![](img/compose.PNG)
 
 
+## wachtwoorden
+
+- open je compose file en bekijk:
+    > ![](img/wwedit.PNG)
+    - `pas_dit_aan` wordt je applicatie wachtwoord
+    - `pas_dit_aan_maar_anders` dit is je ROOT wachtwoord van je database server
+        - deze moet een goed wachtwoord hebben!!
 
 ## docker containers starten
 
@@ -53,3 +60,14 @@ voor onze docker gaan hebben we 2 containers nodig:
             - `open in intergrated terminal`
                 - type nu:  `docker compose up -d`
 
+
+## M3Prog
+
+- vergelijk de containers die je nu hebt met die uit M3Prog
+    - zie je dat we nu een mariadb & phpmyadmin container extra
+    - en dat we in net als in M3Prog een php en nginx hebben?
+
+## klaar?
+
+- commit & push naar je git
+            

@@ -1,8 +1,25 @@
-version: '3.9'
-
-# Services
 services:
+ # PHP FPM Service
+  php:
+    image: wodby/php:latest
+    volumes:
+      - './:/var/www/html'
+    depends_on:
+      - mariadb
+# Nginx Service
+  nginx:
+    image: nginx:latest
+    ports:
+      - 88:80
+    links:
+      - 'php'
+    volumes:
+      - './:/var/www/html'
+      - './docker/nginx:/etc/nginx/conf.d'
+    depends_on:
+      - php
 
+      
   # MariaDB Service
   mariadb:
     image: mariadb:latest
@@ -10,8 +27,8 @@ services:
     environment:
       MYSQL_DATABASE: m4prog
       MYSQL_USER: m4proggebruiker
-      MYSQL_PASSWORD: bf83tb3g5v
-      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
+      MYSQL_PASSWORD: pas_dit_aan
+      MYSQL_ROOT_PASSWORD: pas_dit_aan_maar_anders
     ports:
       - 3308:3306
 
@@ -21,7 +38,7 @@ services:
     environment:
       PMA_HOST: mariadb
       PMA_USER: m4proggebruiker
-      PMA_PASSWORD: bf83tb3g5v
+      PMA_PASSWORD: pas_dit_aan
     ports:
       - "1088:80"
 
